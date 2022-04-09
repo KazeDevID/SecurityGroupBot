@@ -1,0 +1,40 @@
+{
+    "name": "SecurityGroupBot",
+    "description": "Anti Spam/NSFW Telegram Bot Written In Python With Pyrogram.",
+    "repository": "https://github.com/PunyaChael/SecurityGroupBot",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "anti spam bot",
+    "telegram-bot",
+    "pyrogram",
+    "anti nsfw bot",
+    "SecurityGroupBot",
+    "Security Group Bot"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Obtain a Telegram bot oken by contacting @BotFather",
+            "required": true
+        },
+        "SUDOERS": {
+            "description": "Sudo user's ids, Ex:- 2135624454",
+            "required": true
+        },
+        "NSFW_LOG_CHANNEL": {
+            "description": "ID of the channel where NSFW logs should be forwarded. Ex: '-123456'",
+            "required": true
+        },
+        "SPAM_LOG_CHANNEL": {
+            "description": "ID of the channel where SPAM logs should be forwarded. Ex: '-123456'",
+            "required": true
+        },
+        "ARQ_API_KEY": {
+            "description": "Get this from @ARQRobot.",
+            "required": true
+        }
+    }
+}
